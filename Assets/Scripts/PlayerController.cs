@@ -4,10 +4,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Vehicle vehicle;
+    private Vector3 startingPosition = new Vector3(-31, 0, -25);
 
     private void Awake()
     {
         vehicle = GetComponent<Vehicle>();
+        vehicle.transform.position = startingPosition;
     }
 
     private void Update()
