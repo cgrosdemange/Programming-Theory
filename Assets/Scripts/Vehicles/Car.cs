@@ -1,3 +1,4 @@
+/* Assign to a standard Car */
 using UnityEngine;
 
 public class Car : Vehicle

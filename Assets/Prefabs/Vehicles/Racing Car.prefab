@@ -361,6 +361,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1839123787348788120}
   - component: {fileID: 7436134636905027884}
+  - component: {fileID: 3860781266377844530}
+  - component: {fileID: 3047718062623599048}
   m_Layer: 0
   m_Name: Racing Car
   m_TagString: Untagged
@@ -413,6 +415,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3860781266377844530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670700522614485071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2380f57ca312344b38882da57ec206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RacingCar
+  speed: 60
+  steeringAngle: 60
+  maxFuel: 100
+  fuelConsumptionRate: 2
+  frontLeftWheel: {fileID: 1405635132331045522}
+  frontRightWheel: {fileID: 3906676809093156243}
+  rearLeftWheel: {fileID: 7540327794586052094}
+  rearRightWheel: {fileID: 6825140425257372559}
+  wheelSpinSpeed: 300
+--- !u!114 &3047718062623599048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4670700522614485071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321907217a3f03346b81a6190b60f6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!1 &6825140425257372559
 GameObject:
   m_ObjectHideFlags: 0

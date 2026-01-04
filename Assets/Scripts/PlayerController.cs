@@ -1,3 +1,4 @@
+/* Assign to the vehicle controlled by Player */
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
